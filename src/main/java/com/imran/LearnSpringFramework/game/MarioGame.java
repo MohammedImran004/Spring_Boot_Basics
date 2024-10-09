@@ -2,8 +2,9 @@ package com.imran.LearnSpringFramework.game;
 
 public class MarioGame implements GameInterface {
     @Override
-    public void up(){
+    public String up(){
         System.out.println("Jump");
+        return "Jump";
     }
     @Override
     public void down(){
